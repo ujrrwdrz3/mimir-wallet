@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.0.0](https://github.com/ujrrwdrz3/mimir-wallet/compare/ui-v2.31.0...ui-v3.0.0) (2025-10-15)
+
+
+### Features
+
+* add ai assistant for mimir ([#319](https://github.com/ujrrwdrz3/mimir-wallet/issues/319)) ([163ba71](https://github.com/ujrrwdrz3/mimir-wallet/commit/163ba71d3452b83a71277c32af997b0d333ca2ff))
+* Add cross-chain calldata display component ([#291](https://github.com/ujrrwdrz3/mimir-wallet/issues/291)) ([d295856](https://github.com/ujrrwdrz3/mimir-wallet/commit/d295856a3038fbedc7703f1085d3a40815e2943b))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/ujrrwdrz3/mimir-wallet/issues/285)) ([49919e4](https://github.com/ujrrwdrz3/mimir-wallet/commit/49919e4e99855ffcc75aa8a440f1a2ca82ee01d5))
+* Add dry run API support for transaction simulation ([#207](https://github.com/ujrrwdrz3/mimir-wallet/issues/207)) ([6ebab85](https://github.com/ujrrwdrz3/mimir-wallet/commit/6ebab852e9c64bf80acb669a0f1c36a5f8fc65f1))
+* add global account search and refactor UI components ([#167](https://github.com/ujrrwdrz3/mimir-wallet/issues/167)) ([423d938](https://github.com/ujrrwdrz3/mimir-wallet/commit/423d938dc254228af26727459184b4a3a3f0332d))
+* Add notification center feature ([#282](https://github.com/ujrrwdrz3/mimir-wallet/issues/282)) ([3e69655](https://github.com/ujrrwdrz3/mimir-wallet/commit/3e6965546430613bf90bd62ff17b7426c6ef506c))
+* add permission check when submit transaction ([#164](https://github.com/ujrrwdrz3/mimir-wallet/issues/164)) ([abdb969](https://github.com/ujrrwdrz3/mimir-wallet/commit/abdb969fa1f93c6487b412738ada42d5a91bcd2a))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/ujrrwdrz3/mimir-wallet/issues/171)) ([6182239](https://github.com/ujrrwdrz3/mimir-wallet/commit/618223975efafa9e829bd9391d0a0460943cdf77))
+* Add sonner to replace react-toastify ([#280](https://github.com/ujrrwdrz3/mimir-wallet/issues/280)) ([58aac99](https://github.com/ujrrwdrz3/mimir-wallet/commit/58aac99788f2ef307e70476d4b817ab5033bdeb4))
+* add template detail view functionality ([#174](https://github.com/ujrrwdrz3/mimir-wallet/issues/174)) ([3032ee0](https://github.com/ujrrwdrz3/mimir-wallet/commit/3032ee0fe0a2e2ae544aca9a8818ca874d50ce42))
+* Add zkVerify testnet supported ([#251](https://github.com/ujrrwdrz3/mimir-wallet/issues/251)) ([7b01202](https://github.com/ujrrwdrz3/mimir-wallet/commit/7b0120243e983184bf4cf7bcc1c9de6e2d83c800))
+* allow adding lower permission proxies when higher permission proxies exist ([#215](https://github.com/ujrrwdrz3/mimir-wallet/issues/215)) ([bc79824](https://github.com/ujrrwdrz3/mimir-wallet/commit/bc7982484a66f71110549286266e43af62fe733e))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/ujrrwdrz3/mimir-wallet/issues/254)) ([2c7e9e9](https://github.com/ujrrwdrz3/mimir-wallet/commit/2c7e9e9914094ffa480697a67b063a8b170b0fe3))
+* implement AssetHub migration support ([#259](https://github.com/ujrrwdrz3/mimir-wallet/issues/259)) ([04638fc](https://github.com/ujrrwdrz3/mimir-wallet/commit/04638fcd00e4ba2d99a60cf9485cfdb50669a1db))
+* Improve UI display and user experience ([#218](https://github.com/ujrrwdrz3/mimir-wallet/issues/218)) ([0aa4b70](https://github.com/ujrrwdrz3/mimir-wallet/commit/0aa4b70a46d9ca8c24dbab34117409d0636320e3))
+* migrate some ui components to shadcn ([#278](https://github.com/ujrrwdrz3/mimir-wallet/issues/278)) ([1884aab](https://github.com/ujrrwdrz3/mimir-wallet/commit/1884aabdf6909a8306e4644c8f6ddb1c5fc2a5e1))
+* refactor home UI and add assets,analytic pages ([#270](https://github.com/ujrrwdrz3/mimir-wallet/issues/270)) ([ef60cae](https://github.com/ujrrwdrz3/mimir-wallet/commit/ef60caea483b4e8fcf4738d87508dbeac86a1765))
+* Refactor sidebar system with modular architecture and ShadCN integration ([#293](https://github.com/ujrrwdrz3/mimir-wallet/issues/293)) ([89e7813](https://github.com/ujrrwdrz3/mimir-wallet/commit/89e78133802a2453855d6d8b2b5f73d8e8d33d47))
+* remove assethub next westend network ([#232](https://github.com/ujrrwdrz3/mimir-wallet/issues/232)) ([cefe773](https://github.com/ujrrwdrz3/mimir-wallet/commit/cefe77399bbed147e580c42ed86129e1a0315641))
+* **structure:** initialize monorepo with turborepo, and begin migration from MUI to Hero UI ([#162](https://github.com/ujrrwdrz3/mimir-wallet/issues/162)) ([23c3f72](https://github.com/ujrrwdrz3/mimir-wallet/commit/23c3f72f3a59152ad8fcf5bf4fd9a937bdd53439))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/ujrrwdrz3/mimir-wallet/issues/261)) ([1761513](https://github.com/ujrrwdrz3/mimir-wallet/commit/17615139b4b9732450a90db8f8fb417c80e0fc26))
+
+
+### Bug Fixes
+
+* fix some ui issues ([f67972a](https://github.com/ujrrwdrz3/mimir-wallet/commit/f67972a318b11da282dda5dbf902d41affc556b6))
+* Fix some UI issues ([#257](https://github.com/ujrrwdrz3/mimir-wallet/issues/257)) ([26d12da](https://github.com/ujrrwdrz3/mimir-wallet/commit/26d12da45185ad51f8c7e1fba3986bf9c1c36bef))
+* Remove duplicate dirty data in transaction approval ([#165](https://github.com/ujrrwdrz3/mimir-wallet/issues/165)) ([4bbae4e](https://github.com/ujrrwdrz3/mimir-wallet/commit/4bbae4e0688d0c5d9eac12fa6916f02e96a74093))
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/ui-v2.30.0...ui-v2.31.0) (2025-10-08)
 
 
